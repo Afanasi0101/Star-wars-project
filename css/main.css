@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.example-title {
+  font: 500 2.625rem/3.2rem "Montserrat", sans-serif;
+}
+
+.example-text {
+  font: 500 2.25rem/2.7425rem "Montserrat", sans-serif;
+}/*# sourceMappingURL=main.css.map */

@@ -1,6 +1,7 @@
 import './src/scss/main.scss';
 
 import app from './src/app';
+import btn from './src/btn'
 import javascriptLogo from './javascript.svg';
 
 document.querySelector('#app').innerHTML = /* html */`
@@ -13,9 +14,15 @@ document.querySelector('#app').innerHTML = /* html */`
     </a>
     <h1 class="example-title">Siema!</h1>
     <div class="example-text">
-      Tę templatkę możesz usunąć 😁
+      Tę templatkę możesz usunąć  
     </div>
   </div>
 `;
 
 app();
+
+document.querySelector('#btn').innerHTML = 
+  `<button class=first_btn>play the game</button>`
+
+btn()
+ 
