@@ -1,6 +1,7 @@
 
 function btn() {
-  console.log('wciśnij mnie jeszcze raz');
+  console.log('tu jestem');
 }
 
 export default btn;
+
