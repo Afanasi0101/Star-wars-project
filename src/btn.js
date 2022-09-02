@@ -1,7 +1,17 @@
-
-function btn() {
-  console.log('tu jestem');
+function createBtn() {
+  const createBtn = document.createElement('button')
+  createBtn.innerHTML = 'play the game'
+  createBtn.classList.add('first_btn')
+  document.querySelector('#app').appendChild(createBtn)
 }
+export default createBtn
 
-export default btn;
 
+// Pierwszy czy drugi sposób lepszy ??
+
+// const createBtn = () => {
+//   const createBtn = document.createElement('button')
+//   createBtn.innerHTML = 'play the game'
+//   createBtn.classList.add('first_btn')
+//   document.querySelector('#app').appendChild(createBtn)
+// }
