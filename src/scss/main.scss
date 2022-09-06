@@ -1,11 +1,3 @@
 // we can keep main styles file clean by importing index files from other directories
 @import "./base";
 @import "./components";
-
-body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #333;
-}

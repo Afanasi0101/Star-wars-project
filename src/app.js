@@ -1,10 +1,6 @@
-function app() {
-  const invite = 'Hello from app.js';
-  console.log(invite);
-}
-export default app
+import createBtn from './btn';
 
-import createBtn from "./btn";
-
-const btn = createBtn
-btn()
+const root = document.querySelector('#app');
+const btn = createBtn('play the game');
+root.appendChild(btn);
+btn();

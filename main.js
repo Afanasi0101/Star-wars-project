@@ -1,4 +1,2 @@
 import './src/scss/main.scss';
-
-import app from './src/app';
-app();
+import './src/app';
