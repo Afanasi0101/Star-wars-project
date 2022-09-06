@@ -4,4 +4,5 @@ function createBtn(text) {
   universalBtn.classList.add('first_btn');
   return universalBtn;
 }
+
 export default createBtn;
