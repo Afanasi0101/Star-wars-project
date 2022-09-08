@@ -1,0 +1,16 @@
+.first_btn{
+  padding: 1rem 5rem;
+  border-radius: 9px;
+  font-size: 1.5rem;
+  background-color: $color-red;
+  color: $color-white;
+  box-shadow: 0 0 15px $color-red;
+  border: 1px solid $color-red;
+  text-transform: uppercase;
+  cursor: pointer;
+
+}
+.first_btn:hover{
+  background-color: rgb(177, 14, 14);
+  color: black;
+}
